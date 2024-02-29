@@ -73,9 +73,40 @@ table {
 }
 
 ul {  
-  padding-top: 100px;
-  list-style: none;
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  margin: 0 auto;
+
+ 
 }
 
+#character-list{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
+  
+  
+}
 
+.character-card{
+margin-bottom: 20px;
+  
+  
+}
+
+.character-card img{
+  margin-bottom: 10px;
+ 
+
+  
+ 
+}
+
+.character-card h2{
+  font-family: fantasy; 
+}
+.character-card p{
+font-family: fantasy;  
+}
